@@ -512,7 +512,7 @@
 "Sort Order","排序顺序"
 "Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","指定商家PayPal帐户的授权周期时长，这里的设置必须与PayPal中的设置一致。"
 "Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","指定商家PayPal帐户的订单验证周期。这里的设置必须与PayPal中的设置一致。"
-"State/Province","州/省"
+"State/Province","省/直辖市"
 "Static","静态"
 "Street Address","街道地址"
 "Street Address %s","街道地址 %s"
