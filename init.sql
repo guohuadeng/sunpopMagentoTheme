@@ -22,7 +22,7 @@ UPDATE `core_config_data` SET `value`='文宝印章' WHERE `path`='general/store
 UPDATE `core_config_data` SET `value`='文宝印章' WHERE `path`='design/header/logo_alt';
 UPDATE `core_config_data` SET `value`='文宝印章' WHERE `path`='design/head/default_title';
 UPDATE `core_config_data` SET `value`='文宝印章' WHERE `path`='general/store_information/name';
-UPDATE `core_config_data` SET `value`='文宝印章欢迎您' WHERE `path`='design/header/welcome';
+UPDATE `core_config_data` SET `value`='轻松定制建设执业资格印章！足不出户，直接快递上门' WHERE `path`='design/header/welcome';
 UPDATE `core_config_data` SET `value`='&copy; 版权所有 文宝印章' WHERE `path`='design/footer/copyright';
 
 UPDATE `core_config_data` SET `value`='1' WHERE `path`='admin/security/domain_policy_backend';
@@ -35,5 +35,4 @@ UPDATE `core_config_data` SET `value`='1' WHERE `path`='catalog/custom_options/u
 
 UPDATE `poll` SET `poll_title`='您最喜欢什么颜色？' WHERE `poll_title`='What is your favorite color';
 UPDATE `core_store` SET `code`='cn',`name`='中文' WHERE `code`='default';
-
 DELETE FROM  `adminnotification_inbox`;
