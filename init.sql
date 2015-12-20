@@ -36,3 +36,35 @@ UPDATE `core_config_data` SET `value`='1' WHERE `path`='catalog/custom_options/u
 UPDATE `poll` SET `poll_title`='您最喜欢什么颜色？' WHERE `poll_title`='What is your favorite color';
 UPDATE `core_store` SET `code`='cn',`name`='中文' WHERE `code`='default';
 DELETE FROM  `adminnotification_inbox`;
+
+#禁用一些模块
+delete from `core_config_data` where path like 'advanced/modules_disable_output%';
+INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`) VALUES
+('default', 0, 'advanced/modules_disable_output/Cm_RedisSession', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_AdminNotification', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Api', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Api2', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Authorizenet', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Bundle', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Captcha', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Centinel', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Dataflow', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_GiftMessage', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_GoogleAnalytics', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_GoogleCheckout', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_ImportExport', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Newsletter', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Oauth', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Paygate', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Paypal', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_PaypalUk', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Rating', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Review', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Rss', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Sendfriend', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Sitemap', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Tag', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Tax', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Usa', '1'),
+('default', 0, 'advanced/modules_disable_output/Mage_Weee', '1'),
+('default', 0, 'advanced/modules_disable_output/Phoenix_Moneybookers', '1');
