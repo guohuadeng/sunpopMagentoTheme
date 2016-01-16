@@ -64,7 +64,6 @@ INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`) VALUES
 ('default', 0, 'advanced/modules_disable_output/Mage_Sendfriend', '1'),
 ('default', 0, 'advanced/modules_disable_output/Mage_Sitemap', '1'),
 ('default', 0, 'advanced/modules_disable_output/Mage_Tag', '1'),
-('default', 0, 'advanced/modules_disable_output/Mage_Tax', '1'),
 ('default', 0, 'advanced/modules_disable_output/Mage_Usa', '1'),
 ('default', 0, 'advanced/modules_disable_output/Mage_Weee', '1'),
 ('default', 0, 'advanced/modules_disable_output/Phoenix_Moneybookers', '1');

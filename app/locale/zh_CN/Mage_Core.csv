@@ -47,7 +47,7 @@
 "CSS Settings","CSS 设置"
 "Cache Storage Management","缓存存储管理"
 "Cache storage may contain additional data. Are you sure that you want flush it?","缓存存储可能包含额外数据。您确认要清空它吗？"
-"Can not create invoice. Order was not found.","无法创建发票。未找到订单。"
+"Can not create invoice. Order was not found.","无法创建收据。未找到订单。"
 "Can't retrieve request object","无法获取请求对象"
 "Can\'t retrieve entity config: %s","无法获取实体配置：%s"
 "Cancel","取消"

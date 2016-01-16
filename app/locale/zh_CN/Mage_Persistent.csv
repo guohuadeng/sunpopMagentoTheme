@@ -28,6 +28,7 @@
 "Forgot Your Password?","忘记您的密码？"
 "Forgot your password?","忘记您的密码？"
 "General Options","常规选项"
+"If there is an account associated with %s you will receive an email with a link to reset your password.","如果有关联给 %s 的账户，你将收到一封包含重设密码链接的电子邮件。"
 "If you have an account with us, please log in.","如果您拥有账户，请登录。"
 "Loading next step...","正在载入下一步..."
 "Login","登录"

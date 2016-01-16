@@ -9,7 +9,7 @@
 "An internal reference ID is required to save the payment profile.","保存支付配置文件时需要提供内部参考ID。"
 "Authorize action is not available.","授权操作不可用。"
 "Auto Bill on Next Cycle","下个周期自动记账"
-"Automatically Invoice All Items","对所有商品自动创建发票"
+"Automatically Invoice All Items","对所有商品自动创建收据"
 "Automatically bill the outstanding balance amount in the next billing cycle (if there were failed payments).","下个记账周期对余款额度自动记账（如果有失败的支付的话）。"
 "Bank Transfer Payment","银行转账支付"
 "Billing Agreement status is not set.","记账协议状态未设置。"
