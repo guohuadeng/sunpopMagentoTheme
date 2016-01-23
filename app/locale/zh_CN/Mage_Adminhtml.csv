@@ -484,6 +484,7 @@
 "Invoice capturing error.","收据获取出错。"
 "Invoice voiding error.","收据撤销出错。"
 "Invoices","收据"
+"Is Active","激活"
 "Is Closed","已关闭"
 "Is Default","为默认值"
 "Issue Number","问题编号"
