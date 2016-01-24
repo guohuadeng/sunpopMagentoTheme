@@ -37,7 +37,7 @@ UPDATE `poll` SET `poll_title`='您最喜欢什么颜色？' WHERE `poll_title`=
 UPDATE `core_store` SET `code`='cn',`name`='中文' WHERE `code`='default';
 DELETE FROM  `adminnotification_inbox`;
 
-#禁用一些模块
+#2.禁用一些模块
 delete from `core_config_data` where path like 'advanced/modules_disable_output%';
 INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`) VALUES
 ('default', 0, 'advanced/modules_disable_output/Cm_RedisSession', '1'),
@@ -67,3 +67,9 @@ INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`) VALUES
 ('default', 0, 'advanced/modules_disable_output/Mage_Usa', '1'),
 ('default', 0, 'advanced/modules_disable_output/Mage_Weee', '1'),
 ('default', 0, 'advanced/modules_disable_output/Phoenix_Moneybookers', '1');
+
+#3.中文姓名变更，修改lastname字段属性,1.9.x生效
+UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =22;
+UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =7;
+UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =7;
+UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =22;
