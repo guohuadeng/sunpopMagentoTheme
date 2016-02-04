@@ -696,6 +696,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Zzzz">未知文字</script>
 		</scripts>
 		<territories>
+			<!-- Ivan20151217
 			<territory type="001">世界</territory>
 			<territory type="002">非洲</territory>
 			<territory type="003">北美洲</territory>
@@ -778,7 +779,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="CK">库克群岛</territory>
 			<territory type="CL">智利</territory>
 			<territory type="CM">喀麦隆</territory>
+			-->
 			<territory type="CN">中国</territory>
+			<!-- Ivan20151217
 			<territory type="CO">哥伦比亚</territory>
 			<territory type="CP">克利珀顿岛</territory>
 			<territory type="CR">哥斯达黎加</territory>
@@ -976,7 +979,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="UA">乌克兰</territory>
 			<territory type="UG">乌干达</territory>
 			<territory type="UM">美国本土外小岛屿</territory>
-			<territory type="US">美国</territory>
+			-->
+			<territory type="US">美国</territory>			
+			<!-- Ivan20151217
 			<territory type="US" alt="short">美国</territory>
 			<territory type="UY">乌拉圭</territory>
 			<territory type="UZ">乌兹别克斯坦</territory>
@@ -996,6 +1001,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="ZM">赞比亚</territory>
 			<territory type="ZW">津巴布韦</territory>
 			<territory type="ZZ">未知地区</territory>
+			-->
 		</territories>
 		<variants>
 			<variant type="1901">传统德文拼字</variant>

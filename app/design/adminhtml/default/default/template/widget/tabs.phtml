@@ -36,10 +36,10 @@
 		|| $this->getTabId($_tab)=='product_info_tabs_group_11'
 		|| $this->getTabId($_tab)=='product_info_tabs_group_12'
 		|| $this->getTabId($_tab)=='product_info_tabs_group_17'
-		|| $this->getTabId($_tab)=='product_info_tabs_related'
-		|| $this->getTabId($_tab)=='product_info_tabs_upsell'
-		|| $this->getTabId($_tab)=='product_info_tabs_crosssell'
-		|| $this->getTabId($_tab)=='product_info_tabs_reviews'
+		//|| $this->getTabId($_tab)=='product_info_tabs_related'
+		//|| $this->getTabId($_tab)=='product_info_tabs_upsell'
+		//|| $this->getTabId($_tab)=='product_info_tabs_crosssell'
+		//|| $this->getTabId($_tab)=='product_info_tabs_reviews'
 		|| $this->getTabId($_tab)=='product_info_tabs_tags'
 		|| $this->getTabId($_tab)=='product_info_tabs_customers_tags'): ?> style="display:none"<?php endif; ?>>
         <a href="<?php echo $this->getTabUrl($_tab) ?>" id="<?php echo $this->getTabId($_tab) ?>" name="<?php echo $this->getTabId($_tab, false) ?>" title="<?php echo Mage::helper('core')->quoteEscape($this->getTabTitle($_tab)) ?>" class="tab-item-link <?php echo $this->getTabClass($_tab) ?><?php if (preg_match('/\s?ajax\s?/', $_tab->getClass())) {?> notloaded<?php }?>">

@@ -700,8 +700,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Zzzz">Unknown Script</script>
 		</scripts>
 		<territories>
+		<!-- Ivan 20151217
 			<territory type="001">World</territory>
-			<!-- UN codes -->
 			<territory type="002">Africa</territory>
 			<territory type="003">North America</territory>
 			<territory type="005">South America</territory>
@@ -783,7 +783,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="CK">Cook Islands</territory>
 			<territory type="CL">Chile</territory>
 			<territory type="CM">Cameroon</territory>
-			<territory type="CN">China</territory>
+			-->
+			<territory type="CN">China</territory>			
+		<!-- Ivan 20151217
 			<territory type="CO">Colombia</territory>
 			<territory type="CP">Clipperton Island</territory>
 			<territory type="CR">Costa Rica</territory>
@@ -982,7 +984,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="UA">Ukraine</territory>
 			<territory type="UG">Uganda</territory>
 			<territory type="UM">U.S. Outlying Islands</territory>
+			-->
 			<territory type="US">United States</territory>
+		<!-- Ivan 20151217
 			<territory type="US" alt="short">U.S.</territory>
 			<territory type="UY">Uruguay</territory>
 			<territory type="UZ">Uzbekistan</territory>
@@ -1002,6 +1006,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="ZM">Zambia</territory>
 			<territory type="ZW">Zimbabwe</territory>
 			<territory type="ZZ">Unknown Region</territory>
+			-->
 		</territories>
 		<variants>
 			<variant type="1901">Traditional German orthography</variant>

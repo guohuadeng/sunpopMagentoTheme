@@ -35,11 +35,18 @@
 <script type="text/javascript">
     $('footer_bug_tracking').target = 'Varien_External';
     $('footer_connect').target = 'Varien_External';
+    var icount=$('interface_locale').options.length;
+    // english-17,chinese-76, hide other language, by ivan20160205
+    for (i=0; i<icount; i++ )   {
+        if ($('interface_locale').options[i].value != 'en_US' && $('interface_locale').options[i].value != 'zh_CN' )    {
+            $('interface_locale').options[i].hide();
+            }
+         }
     function setInterfaceLanguage(evt){
         var elem = Event.element(evt);
         if(elem){
             setLocation('<?php echo $this->getChangeLocaleUrl() ?>locale/'+elem.value+'/<?php echo $this->getRefererParamName() ?>/<?php echo $this->getUrlForReferer() ?>');
         }
     }
-    Event.observe('interface_locale', 'change', setInterfaceLanguage)
+    Event.observe('interface_locale', 'change', setInterfaceLanguage);
 </script>
