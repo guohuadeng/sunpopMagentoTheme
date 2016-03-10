@@ -671,7 +671,7 @@
 "Order #%s (%s)","订单 #%s(%s)"
 "Order Created Date","订单创建日期"
 "Order ID","订单 ID"
-"Order Totals","订单总数"
+"Order Totals","订单小计"
 "Order Updated Date","订单更新日期"
 "Order Updated Date report is real-time, does not need statistics refreshing.","订单更新日期报告是实时的，不需要刷新状态。"
 "Orders","订单"
