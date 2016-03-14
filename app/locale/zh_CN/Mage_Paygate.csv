@@ -17,7 +17,7 @@
 "Email Customer","发送电子邮件给客户"
 "Enabled","已启用"
 "Error in payment gateway.","支付网关出错。"
-"Gateway actions are locked because the gateway cannot complete one or more of the transactions. Please log in to your Authorize.Net account to manually resolve the issue(s).","网关操作被锁定，因为网关无法完成一个或多个交易。请登录到您的 Authorize.Net 帐户并手工解决该问题。"
+"Gateway actions are locked because the gateway cannot complete one or more of the transactions. Please log in to your Authorize.Net account to manually resolve the issue(s).","网关操作被锁定，因为网关无法完成一个或多个交易。请登录到您的 Authorize.Net 帐号并手工解决该问题。"
 "Gateway error: %s","网关错误：%s"
 "If empty, a default value will be used. Custom URL may be provided by CardinalCommerce agreement.","如果为空，则会使用默认值。自定义URL可通过 CardinalCommerce 协议提供。"
 "Invalid amount for authorization.","授权的额度无效。"
