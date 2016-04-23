@@ -1,7 +1,7 @@
 #安装1,SQL，修改基础信息
+#UPDATE `core_config_data` SET `value`='http://clean.sunpop.cn/' WHERE `path`='web/unsecure/base_url';
+#UPDATE `core_config_data` SET `value`='http://clean.sunpop.cn/' WHERE `path`='web/secure/base_url';
 UPDATE `core_config_data` SET `value`='0' WHERE `path`='general/region/display_all';
-UPDATE `core_config_data` SET `value`='http://clean.sunpop.cn/' WHERE `path`='web/unsecure/base_url';
-UPDATE `core_config_data` SET `value`='http://clean.sunpop.cn/' WHERE `path`='web/secure/base_url';
 UPDATE `core_config_data` SET `value`='zh_CN' WHERE `path`='general/locale/code';
 UPDATE `core_config_data` SET `value`='Asia/Chongqing' WHERE `path`='general/locale/timezone';
 
@@ -69,7 +69,7 @@ INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`) VALUES
 ('default', 0, 'advanced/modules_disable_output/Phoenix_Moneybookers', '1');
 
 #3.中文姓名变更，修改lastname字段属性,1.9.x生效
-UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =22;
-UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =7;
-UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =7;
-UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =22;
+#UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =22;
+#UPDATE `eav_attribute` SET `is_required` = '0' WHERE `eav_attribute`.`attribute_id` =7;
+#UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =7;
+#UPDATE `customer_eav_attribute` SET `validate_rules` = 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:0;}' WHERE `customer_eav_attribute`.`attribute_id` =22;
