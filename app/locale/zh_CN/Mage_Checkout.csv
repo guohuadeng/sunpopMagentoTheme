@@ -68,6 +68,7 @@
 "City","城市"
 "Clear Shopping Cart","清空购物车"
 "Click <a href=""%s"" onclick=""this.target=\'_blank\'"">here to print</a> a copy of your order confirmation.","单击<a href=""%s"">这里来打印</a>您的订单信息。"
+"Click <a href=""%s"" onclick=""this.target='_blank'"">here to print</a> a copy of your order confirmation.","单击<a href=""%s"">这里来打印</a>您的订单信息。"
 "<a href=""%s"" target=""_blank"">Click here to print</a> a copy of your order confirmation.","<a href=""%s"" target=""_blank"">单击这里来打印</a>您的订单信息。"
 "Click <a href=""%s"">here</a> to continue shopping.","单击<a href=""%s"">这里</a>来继续购物。"
 "Close","关闭"
